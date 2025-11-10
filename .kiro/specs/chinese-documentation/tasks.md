@@ -118,17 +118,17 @@
   - 说明如何报告 Bug 和获取帮助
   - _需求: 1.4, 6.1_
 
-- [ ] 3. 创建配置参考文档
+- [x] 3. 创建配置参考文档
   - 创建完整的配置参考文档，详细说明所有配置项
   - _需求: 1.2, 3.1, 3.2, 4.1, 6.2_
 
-- [ ] 3.1 创建配置参考目录结构
+- [x] 3.1 创建配置参考目录结构
   - 创建 `docs/content/docs/configuration/` 目录
   - 创建 `docs/content/docs/configuration/_index.md` 索引文件
   - 配置章节元数据
   - _需求: 1.2, 5.1_
 
-- [ ] 3.2 编写配置文件格式文档
+- [x] 3.2 编写配置文件格式文档
   - 创建 `docs/content/docs/configuration/config-file-format.md`
   - 说明 TOML 和 YAML 两种配置格式
   - 说明配置文件的查找路径和优先级
@@ -136,7 +136,7 @@
   - 提供最小化配置示例
   - _需求: 1.2, 3.1, 3.2, 6.1_
 
-- [ ] 3.3 编写主播配置文档
+- [x] 3.3 编写主播配置文档
   - 创建 `docs/content/docs/configuration/streamer-config.md`
   - 详细说明 `streamers` 配置段的所有选项
   - 说明 URL、tags、format、split_time、split_size 等配置项
@@ -145,7 +145,7 @@
   - 提供多种场景的配置示例
   - _需求: 1.2, 3.1, 3.2, 6.2, 6.3_
 
-- [ ] 3.4 编写上传配置文档
+- [x] 3.4 编写上传配置文档
   - 创建 `docs/content/docs/configuration/upload-config.md`
   - 详细说明上传相关的所有配置项
   - 说明线路选择（line）、并发数（limit）的配置
@@ -154,7 +154,7 @@
   - 提供不同上传策略的配置示例
   - _需求: 1.2, 3.1, 3.2, 6.2, 6.3_
 
-- [ ] 3.5 编写高级配置文档
+- [x] 3.5 编写高级配置文档
   - 创建 `docs/content/docs/configuration/advanced-config.md`
   - 说明代理配置（proxy）
   - 说明日志配置（rust_log）
@@ -163,7 +163,7 @@
   - 说明性能优化相关配置
   - _需求: 1.2, 3.1, 3.2, 6.3_
 
-- [ ] 3.6 编写认证配置文档
+- [x] 3.6 编写认证配置文档
   - 创建 `docs/content/docs/configuration/authentication.md`
   - 说明 B 站 Cookie 的获取和配置方法
   - 说明 cookies.json 文件的格式和位置
@@ -172,7 +172,7 @@
   - 说明多账号配置方法
   - _需求: 1.2, 3.1, 6.1, 6.2_
 
-- [ ] 3.7 创建配置示例集
+- [x] 3.7 创建配置示例集
   - 创建 `docs/content/docs/configuration/examples.md`
   - 提供单主播录制的完整配置示例
   - 提供多主播录制的完整配置示例
@@ -182,17 +182,17 @@
   - 提供 Docker 环境的配置示例
   - _需求: 1.2, 6.2, 6.3, 6.4, 6.5_
 
-- [ ] 4. 创建架构设计文档
+- [x] 4. 创建架构设计文档
   - 创建架构设计文档，帮助高级用户理解系统设计
   - _需求: 2.1, 2.2, 2.3, 2.4_
 
-- [ ] 4.1 创建架构文档目录结构
+- [x] 4.1 创建架构文档目录结构
   - 创建 `docs/content/docs/architecture/` 目录
   - 创建 `docs/content/docs/architecture/_index.md` 索引文件
   - 配置章节元数据
   - _需求: 2.1, 5.1_
 
-- [ ] 4.2 编写架构概览文档
+- [x] 4.2 编写架构概览文档
   - 创建 `docs/content/docs/architecture/overview.md`
   - 使用 Mermaid 绘制整体架构图（参考 README.md 中的架构图）
   - 说明三层架构：前端层、后端层、引擎层
@@ -200,7 +200,7 @@
   - 说明组件之间的通信方式
   - _需求: 2.1, 2.2, 2.5_
 
-- [ ] 4.3 编写前端架构文档
+- [x] 4.3 编写前端架构文档
   - 创建 `docs/content/docs/architecture/frontend.md`
   - 说明前端技术栈（Next.js、React、TypeScript、Semi UI）
   - 说明前端项目结构和主要组件
@@ -208,7 +208,7 @@
   - 说明 WebSocket 实时通信的实现
   - _需求: 2.1, 2.2, 2.3_
 
-- [ ] 4.4 编写后端架构文档
+- [x] 4.4 编写后端架构文档
   - 创建 `docs/content/docs/architecture/backend.md`
   - 说明后端技术栈（Rust、Axum、SQLite、Tower）
   - 说明后端项目结构（biliup、biliup-cli、stream-gears）
@@ -217,7 +217,7 @@
   - 说明数据库设计和迁移机制
   - _需求: 2.1, 2.2, 2.3_
 
-- [ ] 4.5 编写 Python 引擎文档
+- [x] 4.5 编写 Python 引擎文档
   - 创建 `docs/content/docs/architecture/python-engine.md`
   - 说明 Python 引擎的职责（下载、上传、任务调度）
   - 说明与 Rust 后端的集成方式（stream-gears）
@@ -226,7 +226,7 @@
   - 说明任务调度和并发控制
   - _需求: 2.1, 2.2, 2.3_
 
-- [ ] 4.6 编写数据流设计文档
+- [x] 4.6 编写数据流设计文档
   - 创建 `docs/content/docs/architecture/data-flow.md`
   - 使用 Mermaid 绘制数据流图
   - 说明录制流程的完整数据流
@@ -235,7 +235,7 @@
   - 说明日志和事件的传递机制
   - _需求: 2.1, 2.3, 2.5_
 
-- [ ] 4.7 编写插件系统文档
+- [x] 4.7 编写插件系统文档
   - 创建 `docs/content/docs/architecture/plugin-system.md`
   - 说明插件系统的设计原理
   - 说明下载插件的基类和装饰器
@@ -244,7 +244,7 @@
   - 说明事件驱动框架的实现
   - _需求: 2.1, 2.2, 2.4_
 
-- [ ] 4.8 编写设计决策文档
+- [x] 4.8 编写设计决策文档
   - 创建 `docs/content/docs/architecture/design-decisions.md`
   - 说明为什么选择 Rust + Python 混合架构
   - 说明为什么选择 Zola 作为文档生成器
@@ -545,3 +545,4 @@
 3. 代码示例正确，可以实际运行
 4. 链接有效，没有死链
 5. 文档可以正常构建，没有错误
+k
