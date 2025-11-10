@@ -253,17 +253,17 @@
   - 说明其他关键技术决策和权衡
   - _需求: 2.1, 2.4_
 
-- [ ] 5. 创建开发指南文档
+- [-] 5. 创建开发指南文档
   - 创建开发指南文档，指导开发者参与项目开发
   - _需求: 2.1, 2.2, 2.3, 2.4_
 
-- [ ] 5.1 创建开发指南目录结构
+- [x] 5.1 创建开发指南目录结构
   - 创建 `docs/content/docs/development/` 目录
   - 创建 `docs/content/docs/development/_index.md` 索引文件
   - 配置章节元数据
   - _需求: 2.1, 5.1_
 
-- [ ] 5.2 编写开发环境搭建文档
+- [x] 5.2 编写开发环境搭建文档
   - 创建 `docs/content/docs/development/setup-dev-environment.md`
   - 说明开发环境的系统要求
   - 说明必需的开发工具（Node.js、Rust、Python、uv）
@@ -272,7 +272,7 @@
   - 说明如何配置开发环境变量
   - _需求: 2.1, 6.1_
 
-- [ ] 5.3 编写项目结构文档
+- [x] 5.3 编写项目结构文档
   - 创建 `docs/content/docs/development/project-structure.md`
   - 详细说明项目的目录结构
   - 说明前端代码的组织（pages、components、styles）
