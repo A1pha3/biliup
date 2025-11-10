@@ -1,31 +1,96 @@
 +++
-title = "说明"
-description = "AdiDoks is a Zola theme helping you build modern documentation websites, which is a port of the Hugo theme Doks for Zola."
+title = "项目介绍"
+description = "biliup 是一个自动化直播录制和视频上传工具，支持多平台直播录制和 B 站视频投稿。"
 date = 2021-05-01T08:00:00+00:00
-updated = 2021-05-01T08:00:00+00:00
+updated = 2025-01-10T00:00:00+00:00
 draft = false
 weight = 10
 sort_by = "weight"
 template = "docs/page.html"
 
 [extra]
-lead = ' <a href="https://github.com/biliup/biliup">biliup</a>是一组工具集，旨在降低使用、开发自动化b站投稿的难度，同时提供了b站web端、客户端投稿工具未开放的一些功能，如多p投稿，线路选择，并发数设置，直播录制，视频搬运等.'
+lead = "biliup 是一个功能强大的自动化工具，帮助你轻松录制直播并上传到 B 站。"
 toc = true
 top = false
 +++
 
-## Quick Start
+## 什么是 biliup
 
-One page summary of how to start a new biliup project. [Quick Start →](../quick-start/)
+[biliup](https://github.com/biliup/biliup) 是一组工具集，旨在降低使用、开发自动化 B 站投稿的难度。它不仅提供了 B 站 Web 端、客户端投稿工具未开放的一些功能，还支持多平台直播录制和自动上传。
 
-## Go further
+### 核心功能
 
-Contributing and Help.
+- **多平台直播录制**: 支持 20+ 直播平台，包括 Twitch、斗鱼、虎牙、B 站、抖音等
+- **自动视频上传**: 录制完成后自动上传到 B 站，支持多 P 投稿和追加视频
+- **边录边传**: 无需等待录制完成，边录制边上传，节省本地硬盘空间
+- **弹幕录制**: 支持录制直播弹幕，保存为 XML 格式
+- **可视化管理**: 提供 WebUI 界面，方便管理录制任务和配置
+- **24×7 无人值守**: 自动监控直播状态，开播自动录制，断播自动停止
+- **高度可定制**: 支持自定义视频标题、标签、分区、封面等元信息
 
-## Contributing
+### 技术栈
 
-Find out how to contribute to biliup. [Contributing →](../../contributing/how-to-contribute/)
+biliup 采用混合架构，结合了多种技术的优势：
 
-## Help
+- **Rust 后端**: 高性能的 Web 服务器和 Bilibili API 客户端
+- **Python 引擎**: 灵活的下载引擎和插件系统，支持多平台扩展
+- **Next.js 前端**: 现代化的 Web 界面，基于 React 和 TypeScript
 
-Get help on biliup. [Help →](../../help/faq/)
+### 适用场景
+
+biliup 适合以下使用场景：
+
+- **直播录制**: 自动录制喜欢的主播直播内容，不错过精彩瞬间
+- **视频搬运**: 将其他平台的直播内容搬运到 B 站
+- **内容归档**: 长期保存直播内容，建立个人视频库
+- **自动投稿**: 批量上传视频到 B 站，节省手动操作时间
+
+### 目标用户
+
+- **普通用户**: 想要录制和保存直播内容的观众
+- **UP 主**: 需要批量上传视频或搬运内容的创作者
+- **开发者**: 希望扩展功能或集成到自己项目的技术人员
+
+## 快速开始
+
+想要立即开始使用 biliup？查看我们的快速开始指南，只需几分钟即可完成安装和首次录制。
+
+[快速开始 →](../quick-start/)
+
+如果你需要更详细的安装说明，可以查看完整的安装指南：
+
+[详细安装指南 →](../installation/)
+
+## 深入了解
+
+### 用户指南
+
+了解如何使用 biliup 的各项功能，包括录制、上传、配置等。
+
+[用户指南 →](../../user-guide/)
+
+### 配置参考
+
+查看完整的配置选项说明和示例。
+
+[配置参考 →](../../configuration/)
+
+### 架构设计
+
+深入了解 biliup 的系统架构和设计原理。
+
+[架构设计 →](../../architecture/)
+
+## 获取帮助
+
+遇到问题？查看常见问题解答或加入社区获取帮助。
+
+[常见问题 →](../../help/faq/)
+
+[Telegram 群组](https://t.me/+IkpIABHqy6U0ZTQ5)
+
+## 参与贡献
+
+biliup 是一个开源项目，欢迎你的贡献！
+
+[贡献指南 →](../../contributing/how-to-contribute/)
