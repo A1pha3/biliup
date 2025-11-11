@@ -332,17 +332,17 @@
   - 说明常见问题的调试方法
   - _需求: 2.1_
 
-- [ ] 6. 创建 API 参考文档
+- [x] 6. 创建 API 参考文档
   - 创建完整的 API 参考文档
   - _需求: 1.5, 2.3, 6.1, 6.3_
 
-- [ ] 6.1 创建 API 参考目录结构
+- [x] 6.1 创建 API 参考目录结构
   - 创建 `docs/content/docs/api-reference/` 目录
   - 创建 `docs/content/docs/api-reference/_index.md` 索引文件
   - 配置章节元数据
   - _需求: 1.5, 5.1_
 
-- [ ] 6.2 编写 REST API 文档
+- [x] 6.2 编写 REST API 文档
   - 创建 `docs/content/docs/api-reference/rest-api.md`
   - 列出所有 REST API 端点
   - 详细说明认证 API（登录、登出、会话）
@@ -352,7 +352,7 @@
   - 每个 API 提供请求和响应示例
   - _需求: 1.5, 2.3, 6.1, 6.3_
 
-- [ ] 6.3 编写 WebSocket API 文档
+- [x] 6.3 编写 WebSocket API 文档
   - 创建 `docs/content/docs/api-reference/websocket-api.md`
   - 说明 WebSocket 连接方式
   - 说明实时日志推送的消息格式
@@ -360,7 +360,7 @@
   - 提供客户端连接示例
   - _需求: 1.5, 2.3, 6.1, 6.3_
 
-- [ ] 6.4 编写 Python API 文档
+- [x] 6.4 编写 Python API 文档
   - 创建 `docs/content/docs/api-reference/python-api.md`
   - 说明如何将 biliup 作为 Python 库使用
   - 说明上传 API 的使用方法（BiliBili 类）
@@ -368,7 +368,7 @@
   - 提供完整的代码示例
   - _需求: 1.5, 6.1, 6.2_
 
-- [ ] 6.5 编写 CLI 参考文档
+- [x] 6.5 编写 CLI 参考文档
   - 创建 `docs/content/docs/api-reference/cli-reference.md`
   - 详细说明所有 CLI 命令和选项
   - 说明 `biliup login` 命令
@@ -379,7 +379,7 @@
   - 每个命令提供使用示例
   - _需求: 1.5, 6.1, 6.3_
 
-- [ ] 6.6 编写错误码文档
+- [x] 6.6 编写错误码文档
   - 创建 `docs/content/docs/api-reference/error-codes.md`
   - 列出所有可能的错误码
   - 说明每个错误码的含义
@@ -387,11 +387,11 @@
   - 提供常见错误的解决方案
   - _需求: 1.5, 4.4_
 
-- [ ] 7. 更新和完善现有文档
+- [-] 7. 更新和完善现有文档
   - 更新现有的帮助和贡献文档
   - _需求: 1.4, 3.1, 3.3, 4.1, 4.4_
 
-- [ ] 7.1 更新 FAQ 文档
+- [x] 7.1 更新 FAQ 文档
   - 修改 `docs/content/docs/help/faq.md`
   - 移除 AdiDoks 相关的内容
   - 添加 biliup 常见问题和解答
@@ -399,7 +399,7 @@
   - 添加性能优化和故障排查的 FAQ
   - _需求: 1.4, 3.1, 4.1_
 
-- [ ] 7.2 更新贡献指南
+- [x] 7.2 更新贡献指南
   - 修改 `docs/content/docs/contributing/how-to-contribute.md`
   - 更新为 biliup 项目的贡献指南
   - 说明如何报告 Bug
@@ -408,13 +408,13 @@
   - 说明如何提交文档贡献
   - _需求: 3.1, 4.4_
 
-- [ ] 7.3 更新行为准则
+- [x] 7.3 更新行为准则
   - 修改 `docs/content/docs/contributing/code-of-conduct.md`
   - 更新为 biliup 项目的行为准则
   - 说明社区的价值观和期望
   - _需求: 3.1_
 
-- [ ] 7.4 更新进阶指南
+- [x] 7.4 更新进阶指南
   - 修改 `docs/content/docs/guide/introduction.md`
   - 移除过时的安装说明
   - 更新为进阶使用技巧的索引
