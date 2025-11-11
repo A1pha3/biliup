@@ -253,7 +253,7 @@
   - 说明其他关键技术决策和权衡
   - _需求: 2.1, 2.4_
 
-- [-] 5. 创建开发指南文档
+- [x] 5. 创建开发指南文档
   - 创建开发指南文档，指导开发者参与项目开发
   - _需求: 2.1, 2.2, 2.3, 2.4_
 
@@ -281,7 +281,7 @@
   - 说明配置文件和资源文件的位置
   - _需求: 2.1, 2.2_
 
-- [ ] 5.4 编写源码编译文档
+- [x] 5.4 编写源码编译文档
   - 创建 `docs/content/docs/development/building-from-source.md`
   - 说明如何编译前端（npm run build）
   - 说明如何编译 Rust 后端（cargo build、maturin dev）
@@ -290,7 +290,7 @@
   - 说明如何构建发布版本
   - _需求: 2.1, 6.1_
 
-- [ ] 5.5 编写插件开发文档
+- [x] 5.5 编写插件开发文档
   - 创建 `docs/content/docs/development/plugin-development.md`
   - 说明插件系统的工作原理
   - 提供下载插件开发的完整示例
@@ -299,7 +299,7 @@
   - 说明插件的调试技巧
   - _需求: 2.1, 2.4, 6.1, 6.2_
 
-- [ ] 5.6 编写添加平台支持文档
+- [x] 5.6 编写添加平台支持文档
   - 创建 `docs/content/docs/development/adding-platform-support.md`
   - 说明如何分析新平台的直播协议
   - 说明如何实现新平台的下载插件
@@ -308,7 +308,7 @@
   - 提供完整的平台添加示例
   - _需求: 2.1, 2.4, 6.1, 6.2_
 
-- [ ] 5.7 编写 API 集成文档
+- [x] 5.7 编写 API 集成文档
   - 创建 `docs/content/docs/development/api-integration.md`
   - 说明如何添加新的 REST API 端点
   - 说明如何实现 WebSocket 消息处理
@@ -316,7 +316,7 @@
   - 说明 API 的认证和权限控制
   - _需求: 2.1, 2.3, 6.1_
 
-- [ ] 5.8 编写测试指南
+- [x] 5.8 编写测试指南
   - 创建 `docs/content/docs/development/testing.md`
   - 说明测试框架和工具
   - 说明如何编写单元测试
@@ -324,7 +324,7 @@
   - 说明如何运行测试套件
   - _需求: 2.1_
 
-- [ ] 5.9 编写调试技巧文档
+- [x] 5.9 编写调试技巧文档
   - 创建 `docs/content/docs/development/debugging.md`
   - 说明如何调试前端代码（Chrome DevTools）
   - 说明如何调试 Rust 代码（rust-lldb、println!）
