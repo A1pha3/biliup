@@ -1,146 +1,133 @@
 +++
-title = "Code of Conduct"
-description = "Contributor Covenant Code of Conduct."
+title = "行为准则"
+description = "biliup 社区行为准则"
 date = 2021-05-01T18:20:00+00:00
-updated = 2021-05-01T18:20:00+00:00
+updated = 2025-01-10T00:00:00+00:00
 draft = false
 weight = 420
 sort_by = "weight"
 template = "docs/page.html"
 
 [extra]
-lead = "Contributor Covenant Code of Conduct."
+lead = "biliup 社区贡献者公约"
 toc = true
 top = false
 +++
 
-## Our Pledge
+## 我们的承诺
 
-We as members, contributors, and leaders pledge to make participation in our
-community a harassment-free experience for everyone, regardless of age, body
-size, visible or invisible disability, ethnicity, sex characteristics, gender
-identity and expression, level of experience, education, socio-economic status,
-nationality, personal appearance, race, caste, color, religion, or sexual identity
-and orientation.
+作为 biliup 社区的成员、贡献者和领导者，我们承诺让每个人都能在无骚扰的环境中参与社区活动，无论其年龄、体型、明显或不明显的残疾、种族、性别特征、性别认同和表达、经验水平、教育程度、社会经济地位、国籍、外貌、种族、种姓、肤色、宗教或性取向如何。
 
-We pledge to act and interact in ways that contribute to an open, welcoming,
-diverse, inclusive, and healthy community.
+我们承诺以有助于建立开放、友好、多元、包容和健康社区的方式行事和互动。
 
-## Our Standards
+## 我们的标准
 
-Examples of behavior that contributes to a positive environment for our
-community include:
+有助于为社区创造积极环境的行为包括：
 
-* Demonstrating empathy and kindness toward other people
-* Being respectful of differing opinions, viewpoints, and experiences
-* Giving and gracefully accepting constructive feedback
-* Accepting responsibility and apologizing to those affected by our mistakes,
-  and learning from the experience
-* Focusing on what is best not just for us as individuals, but for the
-  overall community
+* 对他人表现出同理心和善意
+* 尊重不同的意见、观点和经验
+* 给予并优雅地接受建设性反馈
+* 承担责任，向受我们错误影响的人道歉，并从经验中学习
+* 关注不仅对我们个人最好，而且对整个社区最好的事情
 
-Examples of unacceptable behavior include:
+不可接受的行为包括：
 
-* The use of sexualized language or imagery, and sexual attention or
-  advances of any kind
-* Trolling, insulting or derogatory comments, and personal or political attacks
-* Public or private harassment
-* Publishing others' private information, such as a physical or email
-  address, without their explicit permission
-* Other conduct which could reasonably be considered inappropriate in a
-  professional setting
+* 使用性化的语言或图像，以及任何形式的性关注或性挑逗
+* 恶意挑衅、侮辱性或贬损性评论，以及人身或政治攻击
+* 公开或私下的骚扰
+* 未经明确许可发布他人的私人信息，如物理地址或电子邮件地址
+* 在专业环境中可能被合理认为不适当的其他行为
 
-## Enforcement Responsibilities
+## 执行责任
 
-Community leaders are responsible for clarifying and enforcing our standards of
-acceptable behavior and will take appropriate and fair corrective action in
-response to any behavior that they deem inappropriate, threatening, offensive,
-or harmful.
+社区领导者负责阐明和执行我们可接受行为的标准，并将对他们认为不适当、威胁性、冒犯性或有害的任何行为采取适当和公平的纠正措施。
 
-Community leaders have the right and responsibility to remove, edit, or reject
-comments, commits, code, wiki edits, issues, and other contributions that are
-not aligned to this Code of Conduct, and will communicate reasons for moderation
-decisions when appropriate.
+社区领导者有权利和责任删除、编辑或拒绝与本行为准则不一致的评论、提交、代码、Wiki 编辑、Issue 和其他贡献，并将在适当时传达审核决定的原因。
 
-## Scope
+## 适用范围
 
-This Code of Conduct applies within all community spaces, and also applies when
-an individual is officially representing the community in public spaces.
-Examples of representing our community include using an official e-mail address,
-posting via an official social media account, or acting as an appointed
-representative at an online or offline event.
+本行为准则适用于所有社区空间，也适用于个人在公共空间正式代表社区的情况。代表我们社区的示例包括使用官方电子邮件地址、通过官方社交媒体账户发布信息，或在线上或线下活动中担任指定代表。
 
-## Enforcement
+## 执行
 
-Instances of abusive, harassing, or otherwise unacceptable behavior may be
-reported to the community leaders responsible for enforcement at
-<aaranxu@outlook.com>.
-All complaints will be reviewed and investigated promptly and fairly.
+可以通过 [GitHub Issues](https://github.com/biliup/biliup/issues) 或 [GitHub Discussions](https://github.com/biliup/biliup/discussions) 向负责执行的社区领导者报告滥用、骚扰或其他不可接受的行为。
 
-All community leaders are obligated to respect the privacy and security of the
-reporter of any incident.
+所有投诉都将得到及时和公平的审查和调查。
 
-## Enforcement Guidelines
+所有社区领导者都有义务尊重任何事件报告者的隐私和安全。
 
-Community leaders will follow these Community Impact Guidelines in determining
-the consequences for any action they deem in violation of this Code of Conduct:
+## 执行指南
 
-### 1. Correction
+社区领导者将遵循这些社区影响指南来确定他们认为违反本行为准则的任何行为的后果：
 
-**Community Impact**: Use of inappropriate language or other behavior deemed
-unprofessional or unwelcome in the community.
+### 1. 纠正
 
-**Consequence**: A private, written warning from community leaders, providing
-clarity around the nature of the violation and an explanation of why the
-behavior was inappropriate. A public apology may be requested.
+**社区影响**：使用不当语言或其他被认为不专业或不受社区欢迎的行为。
 
-### 2. Warning
+**后果**：社区领导者的私下书面警告，明确违规的性质并解释为什么该行为不当。可能会要求公开道歉。
 
-**Community Impact**: A violation through a single incident or series
-of actions.
+### 2. 警告
 
-**Consequence**: A warning with consequences for continued behavior. No
-interaction with the people involved, including unsolicited interaction with
-those enforcing the Code of Conduct, for a specified period of time. This
-includes avoiding interactions in community spaces as well as external channels
-like social media. Violating these terms may lead to a temporary or
-permanent ban.
+**社区影响**：通过单一事件或一系列行为的违规。
 
-### 3. Temporary Ban
+**后果**：对持续行为后果的警告。在指定时间内不得与相关人员互动，包括不得主动与执行行为准则的人员互动。这包括避免在社区空间以及社交媒体等外部渠道的互动。违反这些条款可能导致临时或永久禁令。
 
-**Community Impact**: A serious violation of community standards, including
-sustained inappropriate behavior.
+### 3. 临时禁令
 
-**Consequence**: A temporary ban from any sort of interaction or public
-communication with the community for a specified period of time. No public or
-private interaction with the people involved, including unsolicited interaction
-with those enforcing the Code of Conduct, is allowed during this period.
-Violating these terms may lead to a permanent ban.
+**社区影响**：严重违反社区标准，包括持续的不当行为。
 
-### 4. Permanent Ban
+**后果**：在指定时间内临时禁止与社区进行任何形式的互动或公开交流。在此期间不允许与相关人员进行公开或私下互动，包括不得主动与执行行为准则的人员互动。违反这些条款可能导致永久禁令。
 
-**Community Impact**: Demonstrating a pattern of violation of community
-standards, including sustained inappropriate behavior,  harassment of an
-individual, or aggression toward or disparagement of classes of individuals.
+### 4. 永久禁令
 
-**Consequence**: A permanent ban from any sort of public interaction within
-the community.
+**社区影响**：表现出违反社区标准的模式，包括持续的不当行为、骚扰个人或攻击或贬低某类个人。
 
-## Attribution
+**后果**：永久禁止在社区内进行任何形式的公开互动。
 
-This Code of Conduct is adapted from the [Contributor Covenant][homepage],
-version 2.0, available at
-[https://www.contributor-covenant.org/version/2/0/code_of_conduct.html][v2.0].
+## 归属
 
-Community Impact Guidelines were inspired by 
-[Mozilla's code of conduct enforcement ladder][Mozilla CoC].
+本行为准则改编自[贡献者公约][homepage] 2.0 版本，可在以下网址获取：
+[https://www.contributor-covenant.org/zh-cn/version/2/0/code_of_conduct.html][v2.0]
 
-For answers to common questions about this code of conduct, see the FAQ at
-[https://www.contributor-covenant.org/faq][FAQ]. Translations are available 
-at [https://www.contributor-covenant.org/translations][translations].
+社区影响指南受到 [Mozilla 行为准则执行阶梯][Mozilla CoC] 的启发。
+
+有关本行为准则的常见问题解答，请参阅 [FAQ][FAQ]。翻译版本可在[此处][translations]获取。
 
 [homepage]: https://www.contributor-covenant.org
-[v2.0]: https://www.contributor-covenant.org/version/2/0/code_of_conduct.html
+[v2.0]: https://www.contributor-covenant.org/zh-cn/version/2/0/code_of_conduct.html
 [Mozilla CoC]: https://github.com/mozilla/diversity
 [FAQ]: https://www.contributor-covenant.org/faq
 [translations]: https://www.contributor-covenant.org/translations
+
+## biliup 社区价值观
+
+除了上述行为准则，biliup 社区还倡导以下价值观：
+
+### 开放与包容
+
+我们欢迎来自不同背景、不同技能水平的贡献者。无论你是初学者还是专家，都可以为项目做出有价值的贡献。
+
+### 协作与互助
+
+我们鼓励社区成员之间相互帮助、分享知识和经验。提问和回答问题都是学习和成长的机会。
+
+### 尊重与理解
+
+我们理解每个人都有不同的观点和经验。在讨论中保持尊重，即使存在分歧也要以建设性的方式沟通。
+
+### 质量与责任
+
+我们追求高质量的代码和文档，同时也理解错误是学习过程的一部分。承认错误、从中学习并改进是我们的共同目标。
+
+### 透明与诚信
+
+我们致力于保持项目的透明度，公开讨论重要决策，并诚实地对待问题和挑战。
+
+## 联系方式
+
+如果你对本行为准则有任何疑问或建议，请通过以下方式联系我们：
+
+- [GitHub Discussions](https://github.com/biliup/biliup/discussions)
+- [GitHub Issues](https://github.com/biliup/biliup/issues)
+
+感谢你帮助我们建设一个更好的社区！
